@@ -69,3 +69,6 @@ http.HandleFunc("/notify", func (rep http.ResponseWriter, req *http.Request) {
   
 ### 其他
 * 初始化client后会自动轮询(每12小时)更新平台证书 `func (c *PlatformCertCentral) start() {}`
+
+### 写在最后
+部分代码参考 https://github.com/chirizcc/wechatpay-v3
